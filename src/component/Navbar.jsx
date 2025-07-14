@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from "../assets/MedicalAbs.png";
+import { Moon, Sun } from 'lucide-react';
+
 
 const Navbar = () => {
   return (
@@ -21,6 +23,10 @@ const Navbar = () => {
     <div className='flex ml-48 gap-8'>
       <button className='text-[#8d5cf6] font-bold text-[20px]'>Login</button>
       <button className='bg-[#8d5cf6] my-6 text-white font-medium w-32 h-12 text-[16px] rounded-md'>JOIN US</button>
+     <div className='flex '>
+      <Moon/>
+      <Sun/>
+      </div>
     </div>
 </div>
   )
