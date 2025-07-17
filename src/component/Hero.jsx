@@ -1,4 +1,3 @@
-import React from 'react'
 import hero from "../assets/hero-cover-1.png";
 
 const Hero = () => {
@@ -10,8 +9,8 @@ const Hero = () => {
         <h3 className='text-[#252B42] font-bold text-xl/[1.6] mt-3'>DentalCare is most focused in helping you discover<br/> 
         your most beauiful smile</h3>
         <div className="">
-        <button className='bg-[#8d5cf6] my-6 text-white font-medium w-44 h-12 text-[18px] rounded-md'>Get Quote Now</button>
-        <button className='font-semibold w-40 h-12 text-[18px] mx-6 rounded-md text-[#8d5cf6] border-3 border-[#8d5cf6] '>Learn More</button>
+        <button className='bg-[#8d5cf6] my-6 text-white font-medium w-44 h-12 text-[18px] rounded-md hover:border-3 hover:bg-gray-100 hover:font-bold hover: hover:text-[#8d5cf6] delay-300'>Get Quote Now</button>
+        <button className='font-semibold w-40 h-12 text-[18px] mx-6 rounded-md text-[#8d5cf6] border-3 border-[#8d5cf6] hover:bg-[#8d5cf6] hover:text-white'>Learn More</button>
         </div>
       </div>
       <div>

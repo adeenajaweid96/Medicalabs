@@ -8,7 +8,7 @@ import smile from "../assets/fa-brands-6.png";
 
 const Logos = () => {
   return (
-    <div className='flex justify-center gap-18 my-32 max-w-screen-2xl mx-auto'>
+    <div className='flex justify-center gap-18 my-32 max-w-screen-2xl mx-auto flex-wrap '>
       
       <img src={hooli} alt="" />
       <img src={lyfe} alt="" />
